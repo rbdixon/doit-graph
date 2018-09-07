@@ -38,7 +38,7 @@ opt_outfile = {
 class GraphCmd(DoitCmdBase):
     name = 'graph'
     doc_purpose = "create task's dependency-graph (in dot file format)"
-    doc_description = """Creates a DAG (directly acyclic graph) representaion of tasks in graphviz's **dot** format (http://graphviz.org).
+    doc_description = """Creates a DAG (directly acyclic graph) representation of tasks in graphviz's **dot** format (http://graphviz.org).
 
 **dot** files can be convert to images with i.e.
 
